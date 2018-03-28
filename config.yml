@@ -1,4 +1,5 @@
-- label: "Manual PDF"
+collections: # A list of collections the CMS should be able to edit
+    - label: "Manual PDF"
     name: "manual_pdf"
     widget: "file"
     default: "/uploads/general-manual.pdf"

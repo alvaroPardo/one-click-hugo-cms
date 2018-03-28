@@ -80,3 +80,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+  - label: "Manual PDF"
+  name: "manual_pdf"
+  widget: "file"
+  default: "/uploads/general-manual.pdf"

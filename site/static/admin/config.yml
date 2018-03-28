@@ -15,7 +15,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "PDF", name: "pdf", widget: "file", default: "/uploads/general-manual.pdf"}
   - name: "pages"
     label: "Pages"
     files:
@@ -80,4 +79,4 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
-              - {label: Image, name: imageUrl, widget: image}
+- {label: Image, name: imageUrl, widget: image}

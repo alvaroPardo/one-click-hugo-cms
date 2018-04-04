@@ -1,5 +1,7 @@
 ---
-title: Test workflow
+title: Test workflow1
+categories:
+  - fafs
 date: 2018-03-28T14:56:06.340Z
 description: Test workflow
 image: /img/about-jumbotron.jpg
